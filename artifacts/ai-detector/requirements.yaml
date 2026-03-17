@@ -1,0 +1,13 @@
+packages:
+  "framer-motion": "For premium smooth page transitions, stagger effects, and gauge animations"
+  "react-dropzone": "For a beautiful drag-and-drop file upload experience"
+
+images:
+  - path: "artifacts/ai-detector/public/images/hero-abstract.png"
+    description: "Abstract geometric soft gradient background with professional blue and slate tones, minimal and clean"
+    aspect_ratio: "16:9"
+
+notes:
+  - Using generated hooks from @workspace/api-client-react
+  - React Dropzone is used for robust file selection handling
+  - Framer Motion provides the polished feeling requested
