@@ -4,8 +4,7 @@
 
 \## Preview
 
-!\[App Screenshot](docs/API.png)
-
+![App Screenshot](https://raw.githubusercontent.com/Shakies200/ai-detector/main/docs/API.png)
 
 
 Full-stack tool to analyze text and files (PDF, DOCX, Images) and estimate likelihood of AI-generated content.
