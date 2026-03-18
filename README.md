@@ -18,7 +18,7 @@ Full-stack tool to analyze text and files (PDF, DOCX, Images) and estimate likel
 
 \- File upload \& extraction
 
-\- Structured output (score, verdict, explanation, highlights)
+\- Structured output (score, verdict, explanation, highlights) 
 
 
 
