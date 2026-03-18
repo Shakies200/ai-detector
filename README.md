@@ -43,7 +43,7 @@ Make sure Node.js (v18+) and pnpm are installed:
 
 `OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx`
 
-\## Run the App
+# Run the App
 
 The first method
 
