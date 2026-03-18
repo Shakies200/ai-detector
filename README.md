@@ -31,15 +31,42 @@ Full-stack tool to analyze text and files (PDF, DOCX, Images) and estimate likel
 
 \- OpenAI API
 
+Make sure Node.js (v18+) and pnpm are installed:
+
+# Install pnpm if not already installed
+`npm install -g pnpm`
+
+# Install all packages
+`pnpm install `
+
+#Create a .env file inside artifacts/api-server/:
+
+`OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx`
+
+\## Run the App
+
+The first method
+
+`pnpm install`
+
+`cd artifacts/api-server \&\& pnpm dev`
+
+`cd ../ai-detector \&\& pnpm dev`
+
+If that doesn't work, try the second method.
+
+Open two terminal windows:
+
+Terminal 1 — Backend:
+
+`pnpm --filter @workspace/api-server run dev`
+
+Terminal 2 — Frontend:
+
+`pnpm --filter @workspace/ai-detector run dev`
+Then open your browser at: http://localhost:5173
 
 
-\## Run
 
-```bash
 
-pnpm install
-
-cd artifacts/api-server \&\& pnpm dev
-
-cd ../ai-detector \&\& pnpm dev
 
